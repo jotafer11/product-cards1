@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #ddd;
+}
+
+.card{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 20px;
+
+}
+
+.text1{
+    font-size: 13px;
+    color: #a2a2a2;
+}
+
+.info {
+    line-height: 17px;
+}
+
+
+/* card 1 */
+
+.onecost span {
+    color: #fb3531;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.one{
+    background: #dc3545;
+}
+
+
+/* card 2 */
+.twocost span {
+    color: #286783;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.two {
+    background: #286783;
+}
+
+/* card 3 */
+.threecost span {
+    color: #0012b2;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.three {
+    background-color: #0012b2;
+}
+
+/* Universal style for all product cards */
+
+.one:hover, .two:hover, .three:hover {
+    opacity: .8;
+}
+
+.cursor{
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;    
+
+}
+
